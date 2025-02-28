@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 160px;
+    height: 80px;
+}
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    color: rgb(199, 111, 237);
+}
+.header-menu li:hover{
+    cursor: pointer;
+    color: rgb(255, 110, 6);;
+}

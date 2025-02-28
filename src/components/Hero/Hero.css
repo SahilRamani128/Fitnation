@@ -1,0 +1,167 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+
+}
+.left-hero{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    padding: 32px;
+    padding-top: 24px;
+    flex: 3;
+}
+.right-hero{
+    flex: 1;
+    position: relative;
+    background-color: rgb(45, 1, 78);
+}
+.the-best-ad{
+    margin-top: 64px;
+    background-color: #212629;
+    border-radius: 64px;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: rgb(181, 121, 224);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.the-best-ad span{
+    z-index: 2;
+}
+.the-best-ad div{
+    position: absolute;
+    background-color: rgb(81, 8, 145);
+    width: 90px;
+    height: 80%;
+    left: 8px;
+    border-radius: 48px;
+    z-index: 1;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 24px;
+    text-transform: uppercase;
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+.hero-text div:nth-of-type(3){
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+.figures{
+    display: flex;
+    gap: 32px;
+}
+.figures div{
+    display: flex;
+    flex-direction: column;
+}
+.figures div span:nth-of-type(1){
+    color: aliceblue;
+    font-size: 32px;
+}
+.figures div span:nth-of-type(2){
+    color: rgb(181, 121, 224);
+    text-transform: uppercase;
+}
+.hero-button{
+    display: flex;
+    gap: 16px;
+    font-weight: normal;
+}
+.btn-1{
+    color: aliceblue;
+    background-color: rgb(45, 1, 78);
+    width: 128px;
+}
+.btn-2{
+    color: aliceblue;
+    background-color: transparent;
+    width: 128px;
+    border: 2px solid rgb(45, 1, 78);
+}
+.right-hero button{
+    position: absolute;
+    right: 48px;
+    top: 32px;
+    color: black;
+}
+.heart-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: rgb(187, 158, 217);
+    width: fit-content;
+    padding: 16px;
+    align-items: start;
+    border-radius: 5px;
+    position: absolute;
+    right: 64px;
+    top: 112px;
+}
+.heart-rate img{
+    width: 32px;
+}
+.heart-rate span:nth-of-type(1){
+    color: rgb(111, 0, 230);
+}
+.heart-rate span:nth-of-type(2){
+    color: rgb(46, 0, 94);
+    font-size: 24px;
+}
+.hero-image{
+    position: absolute;
+    top: 160px;
+    right: 140px;
+    width: 375px;
+}
+.hero-image-back{
+    position: absolute;
+    top: 64px;
+    right: 320px;
+    z-index: -1;
+    width: 240px;
+}
+.calories{
+    display: flex;
+    gap: 32px;
+    background-color: rgb(187, 158, 217);
+    border-radius: 5px;
+    padding: 16px;
+    width: fit-content;
+    position: relative;
+    top: 570px;
+    right: 450px;
+}
+.calories img{
+    width: 48px;
+}
+.calories div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calories span:nth-of-type(1){
+    color: rgb(111, 0, 230);
+}
+.calories span:nth-of-type(2){
+    color: rgb(46, 0, 94);
+    font-size: 24px;
+}
+.hero-blur{
+    width: 400px;
+    height: 550px;
+    left: 100px;
+}

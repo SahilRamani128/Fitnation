@@ -1,0 +1,79 @@
+.plans-container{
+    margin-top: -20px;
+    padding: 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    position: relative;
+}
+.plans-blur-1{
+    width: 512px;
+    height: 368px;
+    top: 96px;
+    left: 100px;
+}
+.plans-blur-2{
+    width: 512px;
+    height: 368px;
+    top: 160px;
+    right: 100px;
+}
+
+.programs-header{
+    text-transform: uppercase;
+}
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    background: #656565;
+    color: white;
+    gap: 32px;
+    padding: 24px;
+    width: 240px;
+}
+.plan:nth-child(2){
+    background: linear-gradient(210.41deg, #9242fa 1.14%, #ff39eb 100.75%);
+    color: rgb(46, 0, 94);
+    transform: scale(1.1);
+}
+.plan>svg{
+    fill: rgb(55, 0, 114);
+    width: 32px;
+    height: 32px;
+}
+.plan>:nth-child(2){
+    font-size: 16px;
+    font-weight: bold;
+}
+.plan>:nth-child(3){
+    font-size: 48px;
+    font-weight: bold;
+}
+.plan>:nth-child(5){
+    font-size: 13px;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.feature>img{
+    width: 16px;
+}
+.plans>:nth-child(2)>button{
+    background-color: rgb(55, 0, 114);
+    color: #ac80e5;
+}
